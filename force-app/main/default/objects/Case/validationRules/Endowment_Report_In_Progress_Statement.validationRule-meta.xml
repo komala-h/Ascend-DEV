@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Endowment_Report_In_Progress_Statement</fullName>
+    <active>true</active>
+    <description>Endowment Report Status can only be In Progress if Impact Statement Status is Not Applicable or Approved.</description>
+    <errorConditionFormula>nd_Case_Record_Type_Dev_Name__c = &quot;Endowment_Report&quot; &amp;&amp; TEXT(Status) = &quot;In Progress&quot; &amp;&amp; 
+AND(TEXT(nd_Impact_Statement_Status__c) &lt;&gt; &quot;Not Applicable&quot;, TEXT(nd_Impact_Statement_Status__c) &lt;&gt; &quot;Approved&quot;)</errorConditionFormula>
+    <errorMessage>Endowment Report Status can only be In Progress if Impact Statement Status is Not Applicable or Approved.</errorMessage>
+</ValidationRule>

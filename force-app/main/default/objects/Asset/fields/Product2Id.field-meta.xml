@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product2Id</fullName>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Product2.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.nd_Product_Rec_Type_Dev_Name_picklist__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.nd_Asset_Rec_Type_Dev_Name_picklist__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Wealth_Rating</fullName>
+    <availability>online</availability>
+    <description>Button to call flow to create wealth rating records.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Wealth Rating</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Case_to_Wealth_Rating_Flow?recordId={!Case.Id}&amp;retURL={!Case.Id}</url>
+</WebLink>

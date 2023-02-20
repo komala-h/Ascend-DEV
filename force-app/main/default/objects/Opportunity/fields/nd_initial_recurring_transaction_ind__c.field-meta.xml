@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_initial_recurring_transaction_ind__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Only set true for first recurring transaction</description>
+    <externalId>false</externalId>
+    <label>Initial Recurring Transaction Ind</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

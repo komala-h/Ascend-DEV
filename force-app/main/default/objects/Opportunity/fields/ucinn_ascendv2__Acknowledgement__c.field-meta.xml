@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ucinn_ascendv2__Acknowledgement__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Acknowledgement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DAF</fullName>
+                <default>false</default>
+                <label>Donor Advised Fund</label>
+            </value>
+            <value>
+                <fullName>NER</fullName>
+                <default>false</default>
+                <label>Online eReceipt - No Lettershop Ack</label>
+            </value>
+            <value>
+                <fullName>NFA</fullName>
+                <default>false</default>
+                <label>No further acknowledgment</label>
+            </value>
+            <value>
+                <fullName>NOT</fullName>
+                <default>false</default>
+                <label>Do not send any acknowledgment</label>
+            </value>
+            <value>
+                <fullName>SD3</fullName>
+                <default>false</default>
+                <label>SD3-Special Acknowledgement</label>
+            </value>
+            <value>
+                <fullName>SD6</fullName>
+                <default>false</default>
+                <label>SD6-IRA</label>
+            </value>
+            <value>
+                <fullName>SGR</fullName>
+                <default>false</default>
+                <label>Significant Gift Released</label>
+            </value>
+            <value>
+                <fullName>SIG</fullName>
+                <default>false</default>
+                <label>Significant Gift Hold</label>
+            </value>
+            <value>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Acknowledged</label>
+            </value>
+            <value>
+                <fullName>Do Not Acknowledge</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Do Not Acknowledge</label>
+            </value>
+            <value>
+                <fullName>Not Acknowledged</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Acknowledged</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

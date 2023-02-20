@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_daysInPending__c</fullName>
+    <description>This field tells the number of days the opportunity is in Pending stage</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+NOT (ISBLANK(nd_ApprovedDate__c)) ,
+( nd_ApprovedDate__c- nd_PendingDate__c),
+( TODAY() - nd_PendingDate__c)
+)</formula>
+    <inlineHelpText>This field tells the number of days the opportunity is in Pending stage</inlineHelpText>
+    <label>No of days in Pending</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

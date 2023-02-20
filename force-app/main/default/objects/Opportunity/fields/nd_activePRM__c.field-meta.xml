@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_activePRM__c</fullName>
+    <description>This field tells whether the opportunity has an active PRM or not</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(Account.ucinn_ascendv2__PRM__c) ), True, False)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field tells whether the opportunity has an active PRM or not</inlineHelpText>
+    <label>Has an active PRM</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

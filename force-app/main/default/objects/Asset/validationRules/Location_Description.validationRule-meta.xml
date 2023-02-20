@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Description</fullName>
+    <active>false</active>
+    <description>When the Category is Public Recognition or Walls of Recognition, Location Description is required</description>
+    <errorConditionFormula>OR(TEXT(nd_Category__c) = &quot;Public Recognition&quot;, 
+		TEXT(nd_Category__c) = &quot;Walls of Recognition&quot;) &amp;&amp;
+ ISBLANK(ND_Location_Description__c)</errorConditionFormula>
+    <errorMessage>When the Category is Public Recognition or Walls of Recognition, Location Description is required</errorMessage>
+</ValidationRule>

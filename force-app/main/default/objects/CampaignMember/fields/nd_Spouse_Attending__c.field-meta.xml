@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Spouse_Attending__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field indicates if a spouse attended a past Campaign Event.  This field will not be used for events that go through the Nomination Process in asceND.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field indicates if a spouse attended a past Campaign Event.  This field will not be used for events that go through the Nomination Process in asceND.</inlineHelpText>
+    <label>Spouse Attending (Historical)</label>
+    <type>Checkbox</type>
+</CustomField>

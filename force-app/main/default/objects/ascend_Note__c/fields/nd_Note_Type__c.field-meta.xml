@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Note_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Note Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>2</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>3</label>
+            </value>
+            <value>
+                <fullName>BI</fullName>
+                <default>false</default>
+                <label>Biographical Note</label>
+            </value>
+            <value>
+                <fullName>MS</fullName>
+                <default>false</default>
+                <label>Children&apos;s High School</label>
+            </value>
+            <value>
+                <fullName>DN</fullName>
+                <default>false</default>
+                <label>Death Notice/Obituary</label>
+            </value>
+            <value>
+                <fullName>ZH</fullName>
+                <default>false</default>
+                <label>Engagement/Action to take in FY21</label>
+            </value>
+            <value>
+                <fullName>EC</fullName>
+                <default>false</default>
+                <label>Entity Couple Photo</label>
+            </value>
+            <value>
+                <fullName>EP</fullName>
+                <default>false</default>
+                <label>Entity Individual Photo</label>
+            </value>
+            <value>
+                <fullName>BB</fullName>
+                <default>false</default>
+                <label>Gift Planning Document</label>
+            </value>
+            <value>
+                <fullName>ZC</fullName>
+                <default>false</default>
+                <label>Influencers / Collaborators to involve</label>
+            </value>
+            <value>
+                <fullName>MN</fullName>
+                <default>false</default>
+                <label>Name Pronunciation</label>
+            </value>
+            <value>
+                <fullName>OT</fullName>
+                <default>false</default>
+                <label>Other Note</label>
+            </value>
+            <value>
+                <fullName>ZD</fullName>
+                <default>false</default>
+                <label>Personal Milestones to influence timing</label>
+            </value>
+            <value>
+                <fullName>ZA</fullName>
+                <default>false</default>
+                <label>Philanthropic Areas of Interest</label>
+            </value>
+            <value>
+                <fullName>MP</fullName>
+                <default>false</default>
+                <label>Preferences</label>
+            </value>
+            <value>
+                <fullName>R6</fullName>
+                <default>false</default>
+                <label>Research Biographical Profile Report</label>
+            </value>
+            <value>
+                <fullName>R3</fullName>
+                <default>false</default>
+                <label>Research Biographic Profile</label>
+            </value>
+            <value>
+                <fullName>R4</fullName>
+                <default>false</default>
+                <label>Research Capacity Profile</label>
+            </value>
+            <value>
+                <fullName>R5</fullName>
+                <default>false</default>
+                <label>Research Comprehensive Profile</label>
+            </value>
+            <value>
+                <fullName>R1</fullName>
+                <default>false</default>
+                <label>Research Entity Announcement</label>
+            </value>
+            <value>
+                <fullName>RS</fullName>
+                <default>false</default>
+                <label>Research Note</label>
+            </value>
+            <value>
+                <fullName>R2</fullName>
+                <default>false</default>
+                <label>Research Pre-Qualification</label>
+            </value>
+            <value>
+                <fullName>AA</fullName>
+                <default>false</default>
+                <label>WARNING</label>
+            </value>
+            <value>
+                <fullName>WX</fullName>
+                <default>false</default>
+                <label>WealthEx</label>
+            </value>
+            <value>
+                <fullName>WS</fullName>
+                <default>false</default>
+                <label>Wealth Screening</label>
+            </value>
+            <value>
+                <fullName>ZE</fullName>
+                <default>false</default>
+                <label>What are the immediate next steps?</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

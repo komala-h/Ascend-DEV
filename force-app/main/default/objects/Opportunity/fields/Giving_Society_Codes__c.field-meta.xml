@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Giving_Society_Codes__c</fullName>
+    <description>Giving society affiliation codes from Contact object.</description>
+    <externalId>false</externalId>
+    <formula>ucinn_ascendv2__Contact__r.nd_Suffix_Giving_Societies__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Giving society affiliation codes from Contact object.</inlineHelpText>
+    <label>Giving Society Codes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

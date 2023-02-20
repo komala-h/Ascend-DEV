@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Content</fullName>
+    <active>false</active>
+    <description>When the Category is Stewardship Communication, Final Content is required</description>
+    <errorConditionFormula>TEXT(nd_Category__c) = &quot;Stewardship Communication&quot; &amp;&amp;
+LEN(nd_Final_Content__c) == 0</errorConditionFormula>
+    <errorMessage>When the Category is Stewardship Communication, Final Content is required</errorMessage>
+</ValidationRule>

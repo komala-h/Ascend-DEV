@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Include_in_Timeline__c</fullName>
+    <description>Field evaluates to TRUE if this record should appear on the Household/Account Timeline component</description>
+    <externalId>false</externalId>
+    <formula>OR(RecordType.DeveloperName = &apos;Pledge&apos;, RecordType.DeveloperName = &apos;Proposal&apos;)</formula>
+    <label>Include in Timeline - Account</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

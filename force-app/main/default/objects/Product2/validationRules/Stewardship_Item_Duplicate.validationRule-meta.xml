@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stewardship_Item_Duplicate</fullName>
+    <active>true</active>
+    <description>There is already an existing Stewardship Item with this product code</description>
+    <errorConditionFormula>nd_Product_Record_Type_Dev_Name__c = &quot;Stewardship_Item&quot; &amp;&amp; nd_Duplicate_Exist__c = True</errorConditionFormula>
+    <errorMessage>There is already an existing Stewardship Item with this product code</errorMessage>
+</ValidationRule>

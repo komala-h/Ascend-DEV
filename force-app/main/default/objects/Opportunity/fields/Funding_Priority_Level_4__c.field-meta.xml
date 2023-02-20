@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding_Priority_Level_4__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Funding Priority Level 4</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>ucinn_ascendv2__Work_Plan_Unit__c.ucinn_ascendv2__Work_Plan_Unit__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Funding_Priority_Level_3__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>ucinn_ascendv2__Work_Plan_Unit__c</referenceTo>
+    <relationshipLabel>Proposals (Funding Priority Level 4)</relationshipLabel>
+    <relationshipName>Proposals_Level_4</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

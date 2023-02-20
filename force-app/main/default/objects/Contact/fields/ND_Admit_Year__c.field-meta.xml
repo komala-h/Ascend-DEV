@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Admit_Year__c</fullName>
+    <description>Admit Year for ND Students</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Admit Year for ND Students</inlineHelpText>
+    <label>Admit Year</label>
+    <length>4</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

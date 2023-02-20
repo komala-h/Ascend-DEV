@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Handling__c</fullName>
+    <externalId>false</externalId>
+    <label>Special Handling</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Reminders-Auto Pay</fullName>
+                <default>false</default>
+                <label>No Reminders-Auto Pay</label>
+            </value>
+            <value>
+                <fullName>No Receipt</fullName>
+                <default>false</default>
+                <label>No Receipt</label>
+            </value>
+            <value>
+                <fullName>No Mail</fullName>
+                <default>false</default>
+                <label>No Mail</label>
+            </value>
+            <value>
+                <fullName>No Reminders-Don&apos;t Send</fullName>
+                <default>false</default>
+                <label>No Reminders-Don&apos;t Send</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

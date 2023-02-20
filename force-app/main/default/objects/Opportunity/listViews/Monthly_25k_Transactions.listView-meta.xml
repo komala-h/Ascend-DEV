@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monthly_25k_Transactions</fullName>
+    <columns>ucinn_ascendv2__Credit_Date__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>ucinn_ascendv2__Donor_ID_Formula__c</columns>
+    <columns>ucinn_ascendv2__Contact__c</columns>
+    <columns>ucinn_ascendv2__Designation__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>ucinn_ascendv2__Donor_s_PRM_Formula__c</columns>
+    <columns>nd_Beneficiary_Donor__c</columns>
+    <columns>Funding_Priority_Level_2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ucinn_ascendv2__Credit_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>LAST_N_WEEKS:2</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Opportunity.ucinn_ascendv2__Proposal</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>greaterOrEqual</operation>
+        <value>25000</value>
+    </filters>
+    <label>$25k+ Transactions (Last 2 Weeks)</label>
+</ListView>

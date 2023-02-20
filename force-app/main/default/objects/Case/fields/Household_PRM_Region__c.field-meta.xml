@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Household_PRM_Region__c</fullName>
+    <description>Field to hold the Group/Region user value for the Household PRM</description>
+    <externalId>false</externalId>
+    <formula>CASE(
+TEXT(Account.ucinn_ascendv2__PRM__r.ND_Group_Region__c),
+&quot;1&quot;,&quot;East&quot;,
+&quot;2&quot;,&quot;Midwest&quot;,
+&quot;3&quot;,&quot;West&quot;,
+&quot;4&quot;,&quot;South&quot;,
+&quot;P&quot;,&quot;Principal Gift&quot;,
+&quot;G&quot;,&quot;Gift Planning&quot;,
+&quot;R&quot;,&quot;Programs&quot;,
+&quot;C&quot;,&quot;Corporate Relations&quot;,
+&quot;U&quot;,&quot;University Relations Exec.&quot;,
+&quot;A&quot;,&quot;Annual Giving&quot;,
+&quot;T&quot;,&quot;Athletics&quot;,
+&quot;I&quot;,&quot;Global Advancement&quot;,
+&quot;D&quot;,&quot;Academic Advancement&quot;,
+&quot;X&quot;,&quot;None&quot;,
+&quot;F&quot;,&quot;Foundation Relations&quot;,
+&quot;E&quot;,&quot;Corporate/Foundation Relations&quot;,
+&quot;J&quot;,&quot;Central&quot;,
+&quot;K&quot;,&quot;East Coast&quot;,
+&quot;L&quot;,&quot;Illinois&quot;,
+&quot;N&quot;,&quot;Northwest&quot;,
+&quot;M&quot;,&quot;NY Metro&quot;,
+&quot;S&quot;,&quot;Southern&quot;,
+&quot;H&quot;,&quot;Southwest&quot;,
+&quot;&quot;,&quot;&quot;,
+&quot;Unknown Region&quot;
+)</formula>
+    <label>Household PRM Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

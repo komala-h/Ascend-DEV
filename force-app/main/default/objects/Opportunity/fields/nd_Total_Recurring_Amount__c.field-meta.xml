@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Total_Recurring_Amount__c</fullName>
+    <description>Total Annual Amount of Recurring Gift</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(NOT(ISBLANK(nd_Recurring_Periodicity__c)), (nd_initial_recurring_transaction_ind__c = TRUE)) , (nd_Recurring_Periodicity__c * Amount), 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total Annual Amount of Recurring Gift</inlineHelpText>
+    <label>Total Recurring Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

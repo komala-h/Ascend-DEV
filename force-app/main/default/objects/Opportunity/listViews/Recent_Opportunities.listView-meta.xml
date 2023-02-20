@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recent_Opportunities</fullName>
+    <columns>ucinn_ascendv2__Credit_Date__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>ucinn_ascendv2__Donor_ID_Formula__c</columns>
+    <columns>ucinn_ascendv2__Contact__c</columns>
+    <columns>ucinn_ascendv2__Designation__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>ucinn_ascendv2__Donor_s_PRM_Formula__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ucinn_ascendv2__Credit_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>LAST_N_WEEKS:2</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Opportunity.ucinn_ascendv2__Proposal</value>
+    </filters>
+    <label>My Gifts (Last 2 Weeks)</label>
+</ListView>

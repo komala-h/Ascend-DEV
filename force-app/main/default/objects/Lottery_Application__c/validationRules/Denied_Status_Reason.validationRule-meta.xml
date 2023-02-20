@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Denied_Status_Reason</fullName>
+    <active>true</active>
+    <description>Status Reason is required when Request Status is Denied</description>
+    <errorConditionFormula>TEXT( Request_Status__c ) = &quot;Denied&quot; &amp;&amp;
+ISBLANK( Status_Reason__c )</errorConditionFormula>
+    <errorMessage>Status Reason is required when Request Status is Denied</errorMessage>
+</ValidationRule>

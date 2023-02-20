@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impact_Statement_Manual_Edits</fullName>
+    <active>false</active>
+    <description>This Designation Stewardszhip Report Code is not applicable for Impact Statement Manual Edits</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(TEXT(nd_Designation_Steward_Reporting_Code__c))),
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;SC&quot;,
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;FB&quot;,
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;PB&quot;,
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;FE&quot;,
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;PF&quot;,
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;FL&quot;,
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;PL&quot;,
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;GA&quot;,
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;PG&quot;,
+TEXT(nd_Designation_Steward_Reporting_Code__c) &lt;&gt; &quot;ND&quot;)
+&amp;&amp;
+AND(
+NOT(ISBLANK(TEXT(nd_Impact_Statement_Status__c))),
+TEXT(nd_Impact_Statement_Status__c) &lt;&gt; &quot;Not Needed&quot;)</errorConditionFormula>
+    <errorMessage>This Designation Stewardszhip Report Code is not applicable for Impact Statement Manual Edits</errorMessage>
+</ValidationRule>

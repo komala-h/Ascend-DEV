@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Institutional_Suffix__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(ISBLANK(nd_Suffix_Constituent_Types__c),&quot;&quot;, nd_Suffix_Constituent_Types__c) &amp; IF((ISBLANK(nd_Suffix_ND_Affiliations__c) &amp;&amp; ISBLANK(nd_Suffix_Giving_Societies__c)&amp;&amp; nd_Active_Prospect__c =FALSE) ,&quot;&quot;,&quot;/&quot;) &amp; If(ISBLANK(nd_Suffix_ND_Affiliations__c), &quot;&quot;, nd_Suffix_ND_Affiliations__c &amp; &quot; &quot;) &amp; IF(ISBLANK(nd_Suffix_Giving_Societies__c),&quot;&quot;,nd_Suffix_Giving_Societies__c) &amp; IF(nd_Active_Prospect__c, &quot; AP&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Institutional Suffix</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

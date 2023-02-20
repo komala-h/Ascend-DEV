@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Constituent_Type_RE_or_RC__c</fullName>
+    <description>Indicates whether the Constituent on a gift is a Related Child or Related Entity</description>
+    <externalId>false</externalId>
+    <formula>CONTAINS(ucinn_ascendv2__Contact__r.ucinn_ascendv2__Primary_Contact_Type__c , &quot;Related&quot;)</formula>
+    <inlineHelpText>Indicates whether the Constituent on a gift is a Related Child or Related Entity</inlineHelpText>
+    <label>Constituent Type = RE or RC</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

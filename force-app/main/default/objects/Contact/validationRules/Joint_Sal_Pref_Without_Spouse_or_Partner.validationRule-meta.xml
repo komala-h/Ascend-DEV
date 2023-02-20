@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Joint_Sal_Pref_Without_Spouse_or_Partner</fullName>
+    <active>true</active>
+    <description>Disallows a joint salutation preference with no spouse or Significant Other/Partner.</description>
+    <errorConditionFormula>$Setup.ucinn_ascendv2__Bypass_Settings__c.ucinn_ascendv2__Bypass_Validation_Rules__c &lt;&gt; TRUE &amp;&amp;
+ISPICKVAL( ucinn_ascendv2__Salutation_Preference__c , &quot;Joint&quot;) &amp;&amp;
+AND( ISBLANK(ucinn_ascendv2__Preferred_Spouse__c), ISBLANK(nd_Partner_Significant_Other__c) ) &amp;&amp;
+OR(
+RecordType.DeveloperName = &quot;Edit_Contact&quot;,
+RecordType.DeveloperName = &quot;New_Contact&quot;
+)&amp;&amp;
+RecordType.NamespacePrefix = &apos;ucinn_ascendv2&apos;</errorConditionFormula>
+    <errorDisplayField>ucinn_ascendv2__Salutation_Preference__c</errorDisplayField>
+    <errorMessage>There are no existing joint salutations.</errorMessage>
+</ValidationRule>

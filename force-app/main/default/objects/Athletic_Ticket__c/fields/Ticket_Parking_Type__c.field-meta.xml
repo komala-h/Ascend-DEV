@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ticket_Parking_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Ticket/Parking Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>BO</fullName>
+                <default>false</default>
+                <label>Bowl Game</label>
+            </value>
+            <value>
+                <fullName>CO</fullName>
+                <default>false</default>
+                <label>Complimentary</label>
+            </value>
+            <value>
+                <fullName>LA</fullName>
+                <default>false</default>
+                <label>Lottery Air Force</label>
+            </value>
+            <value>
+                <fullName>LB</fullName>
+                <default>false</default>
+                <label>Lottery Arizona State</label>
+            </value>
+            <value>
+                <fullName>LZ</fullName>
+                <default>false</default>
+                <label>Lottery Army</label>
+            </value>
+            <value>
+                <fullName>L8</fullName>
+                <default>false</default>
+                <label>Lottery Ball State</label>
+            </value>
+            <value>
+                <fullName>LS</fullName>
+                <default>false</default>
+                <label>Lottery Boston College</label>
+            </value>
+            <value>
+                <fullName>M2</fullName>
+                <default>false</default>
+                <label>Lottery Bowling Green</label>
+            </value>
+            <value>
+                <fullName>LC</fullName>
+                <default>false</default>
+                <label>Lottery BYU</label>
+            </value>
+            <value>
+                <fullName>M8</fullName>
+                <default>false</default>
+                <label>Lottery California</label>
+            </value>
+            <value>
+                <fullName>M5</fullName>
+                <default>false</default>
+                <label>Lottery Cincinnati</label>
+            </value>
+            <value>
+                <fullName>LT</fullName>
+                <default>false</default>
+                <label>Lottery Clemson</label>
+            </value>
+            <value>
+                <fullName>L1</fullName>
+                <default>false</default>
+                <label>Lottery Duke</label>
+            </value>
+            <value>
+                <fullName>LM</fullName>
+                <default>false</default>
+                <label>Lottery Florida State</label>
+            </value>
+            <value>
+                <fullName>L6</fullName>
+                <default>false</default>
+                <label>Lottery Georgia</label>
+            </value>
+            <value>
+                <fullName>LU</fullName>
+                <default>false</default>
+                <label>Lottery Georgia Tech</label>
+            </value>
+            <value>
+                <fullName>LN</fullName>
+                <default>false</default>
+                <label>Lottery Louisville</label>
+            </value>
+            <value>
+                <fullName>M7</fullName>
+                <default>false</default>
+                <label>Lottery Marshall</label>
+            </value>
+            <value>
+                <fullName>L2</fullName>
+                <default>false</default>
+                <label>Lottery Miami</label>
+            </value>
+            <value>
+                <fullName>L7</fullName>
+                <default>false</default>
+                <label>Lottery Miami (Ohio)</label>
+            </value>
+            <value>
+                <fullName>LD</fullName>
+                <default>false</default>
+                <label>Lottery Michigan</label>
+            </value>
+            <value>
+                <fullName>LE</fullName>
+                <default>false</default>
+                <label>Lottery Michigan State</label>
+            </value>
+            <value>
+                <fullName>LF</fullName>
+                <default>false</default>
+                <label>Lottery Navy</label>
+            </value>
+            <value>
+                <fullName>L4</fullName>
+                <default>false</default>
+                <label>Lottery NC State</label>
+            </value>
+            <value>
+                <fullName>L3</fullName>
+                <default>false</default>
+                <label>Lottery Nevada</label>
+            </value>
+            <value>
+                <fullName>M1</fullName>
+                <default>false</default>
+                <label>Lottery New Mexico</label>
+            </value>
+            <value>
+                <fullName>LO</fullName>
+                <default>false</default>
+                <label>Lottery North Carolina</label>
+            </value>
+            <value>
+                <fullName>LP</fullName>
+                <default>false</default>
+                <label>Lottery Northwestern</label>
+            </value>
+            <value>
+                <fullName>M6</fullName>
+                <default>false</default>
+                <label>Lottery Ohio State</label>
+            </value>
+            <value>
+                <fullName>LG</fullName>
+                <default>false</default>
+                <label>Lottery Oklahoma</label>
+            </value>
+            <value>
+                <fullName>LH</fullName>
+                <default>false</default>
+                <label>Lottery Pittsburgh</label>
+            </value>
+            <value>
+                <fullName>LI</fullName>
+                <default>false</default>
+                <label>Lottery Purdue</label>
+            </value>
+            <value>
+                <fullName>LQ</fullName>
+                <default>false</default>
+                <label>Lottery Rice</label>
+            </value>
+            <value>
+                <fullName>LJ</fullName>
+                <default>false</default>
+                <label>Lottery Stanford</label>
+            </value>
+            <value>
+                <fullName>LR</fullName>
+                <default>false</default>
+                <label>Lottery Syracuse</label>
+            </value>
+            <value>
+                <fullName>LK</fullName>
+                <default>false</default>
+                <label>Lottery Temple</label>
+            </value>
+            <value>
+                <fullName>LV</fullName>
+                <default>false</default>
+                <label>Lottery Texas</label>
+            </value>
+            <value>
+                <fullName>M3</fullName>
+                <default>false</default>
+                <label>Lottery Toledo</label>
+            </value>
+            <value>
+                <fullName>LW</fullName>
+                <default>false</default>
+                <label>Lottery UMass</label>
+            </value>
+            <value>
+                <fullName>M9</fullName>
+                <default>false</default>
+                <label>Lottery UNLV</label>
+            </value>
+            <value>
+                <fullName>LL</fullName>
+                <default>false</default>
+                <label>Lottery USC</label>
+            </value>
+            <value>
+                <fullName>L9</fullName>
+                <default>false</default>
+                <label>Lottery Vanderbilt</label>
+            </value>
+            <value>
+                <fullName>LX</fullName>
+                <default>false</default>
+                <label>Lottery Virginia</label>
+            </value>
+            <value>
+                <fullName>L5</fullName>
+                <default>false</default>
+                <label>Lottery Virginia Tech</label>
+            </value>
+            <value>
+                <fullName>LY</fullName>
+                <default>false</default>
+                <label>Lottery Wake Forest</label>
+            </value>
+            <value>
+                <fullName>M4</fullName>
+                <default>false</default>
+                <label>Lottery Wisconsin</label>
+            </value>
+            <value>
+                <fullName>PL</fullName>
+                <default>false</default>
+                <label>Parking Lottery</label>
+            </value>
+            <value>
+                <fullName>EX</fullName>
+                <default>false</default>
+                <label>Parking Lottery Exclude</label>
+            </value>
+            <value>
+                <fullName>SF</fullName>
+                <default>false</default>
+                <label>Season 1842</label>
+            </value>
+            <value>
+                <fullName>SC</fullName>
+                <default>false</default>
+                <label>Season Club</label>
+            </value>
+            <value>
+                <fullName>SL</fullName>
+                <default>false</default>
+                <label>Season Loge</label>
+            </value>
+            <value>
+                <fullName>Season Pass</fullName>
+                <default>false</default>
+                <label>Season Pass</label>
+            </value>
+            <value>
+                <fullName>Season Preferred</fullName>
+                <default>false</default>
+                <label>Season Preferred</label>
+            </value>
+            <value>
+                <fullName>SS</fullName>
+                <default>false</default>
+                <label>Season Shamrock Game</label>
+            </value>
+            <value>
+                <fullName>ST</fullName>
+                <default>false</default>
+                <label>Season Ticket</label>
+            </value>
+            <value>
+                <fullName>SG</fullName>
+                <default>false</default>
+                <label>Single Game</label>
+            </value>
+            <value>
+                <fullName>Single Game Exception</fullName>
+                <default>false</default>
+                <label>Single Game Exception</label>
+            </value>
+            <value>
+                <fullName>GM</fullName>
+                <default>false</default>
+                <label>Single Game Purchase</label>
+            </value>
+            <value>
+                <fullName>SO</fullName>
+                <default>false</default>
+                <label>South Club</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>BO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>L8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>M2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>M8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>M5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>L1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>L6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>M7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>L2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>L7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>L4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>L3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>M1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>M6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>M3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>M9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>L9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>L5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>LY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>M4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>SF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>SC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>SL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Season Pass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>Season Preferred</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>SS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>ST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>SG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>Single Game Exception</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>GM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ticket</controllingFieldValue>
+            <valueName>SO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>CO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>PL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>EX</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

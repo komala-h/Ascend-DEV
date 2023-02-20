@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Proposal_Booked__c</fullName>
+    <description>Checks the Stage of Proposals associated with an Opportunity record</description>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL(ucinn_ascendv2__Proposal__r.StageName, &quot;Booked&quot;)</formula>
+    <label>Proposal Booked</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

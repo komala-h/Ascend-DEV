@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Endowment_Report_Early_Deadline_Due_Date</fullName>
+    <active>true</active>
+    <description>If Early Deadline is Complete, then Early Deadline Due Date is required.</description>
+    <errorConditionFormula>TEXT( nd_Early_Deadline__c ) = &quot;Complete&quot; &amp;&amp;  ISBLANK(nd_Early_Deadline_Due_Date__c)</errorConditionFormula>
+    <errorMessage>If Early Deadline is Complete, then Early Deadline Due Date is required.</errorMessage>
+</ValidationRule>

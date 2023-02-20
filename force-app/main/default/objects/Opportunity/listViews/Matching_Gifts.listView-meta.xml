@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Matching_Gifts</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ucinn_ascendv2__Source_Contact__c</columns>
+    <columns>ucinn_ascendv2__Affiliated_Account__c</columns>
+    <columns>ucinn_ascendv2__Credit_Date__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>ucinn_ascendv2__Confirmation_Date__c</columns>
+    <columns>ucinn_ascendv2__Confirmation_Method__c</columns>
+    <columns>ucinn_ascendv2__Notes__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.ucinn_ascendv2__Matching_Gift</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Potential Match,Confirmed</value>
+    </filters>
+    <label>Matching Gifts</label>
+</ListView>

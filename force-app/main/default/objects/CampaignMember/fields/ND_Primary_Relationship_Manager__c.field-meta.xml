@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Primary_Relationship_Manager__c</fullName>
+    <description>Household Primary Relationship Manager</description>
+    <externalId>false</externalId>
+    <formula>Contact.Account.ucinn_ascendv2__PRM__r.FirstName  &amp; &quot; &quot; &amp;  Contact.Account.ucinn_ascendv2__PRM__r.LastName</formula>
+    <inlineHelpText>Household Primary Relationship Manager</inlineHelpText>
+    <label>Primary Relationship Manager</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

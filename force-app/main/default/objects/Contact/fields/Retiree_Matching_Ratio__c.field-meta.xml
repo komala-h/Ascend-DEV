@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retiree_Matching_Ratio__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Current_Employer__r.ucinn_ascendv2__Retiree_Matching_Ratio__c &gt; 0, TEXT(Current_Employer__r.ucinn_ascendv2__Retiree_Matching_Ratio__c), &quot;None&quot;)</formula>
+    <label>Retiree Matching Ratio</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

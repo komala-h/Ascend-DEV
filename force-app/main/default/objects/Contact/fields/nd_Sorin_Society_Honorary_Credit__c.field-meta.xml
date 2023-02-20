@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Sorin_Society_Honorary_Credit__c</fullName>
+    <externalId>false</externalId>
+    <formula>ucinn_ascendv2__Preferred_Spouse__r.nd_Sorin_Society_Giving__c +
+	 nd_Partner_Significant_Other__r.nd_Sorin_Society_Giving__c</formula>
+    <label>Sorin Society Honorary Credit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Is_Household_Primary__c</fullName>
+    <externalId>false</externalId>
+    <formula>Account.ucinn_ascendv2__Primary_Contact__r.Id = Id</formula>
+    <label>Is Household Primary</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

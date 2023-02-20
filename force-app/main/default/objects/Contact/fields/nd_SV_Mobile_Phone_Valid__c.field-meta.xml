@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_SV_Mobile_Phone_Valid__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field was created to sync with SignalVine. There is some validation done on the SignalVine side to confirm that a mobile phone is valid and this is passed back to crmND.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicator from SignalVine regarding the Mobile phone.</inlineHelpText>
+    <label>SV Mobile Phone Valid</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

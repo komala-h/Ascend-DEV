@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Subcategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Subcategory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Blessed rosary</fullName>
+                <default>false</default>
+                <label>Blessed rosary</label>
+            </value>
+            <value>
+                <fullName>Blessing</fullName>
+                <default>false</default>
+                <label>Blessing</label>
+            </value>
+            <value>
+                <fullName>Building/Space Recognition</fullName>
+                <default>false</default>
+                <label>Building/Space Recognition</label>
+            </value>
+            <value>
+                <fullName>Campaign Gift</fullName>
+                <default>false</default>
+                <label>Campaign Gift</label>
+            </value>
+            <value>
+                <fullName>Capital Report</fullName>
+                <default>false</default>
+                <label>Capital Report</label>
+            </value>
+            <value>
+                <fullName>Celebration</fullName>
+                <default>false</default>
+                <label>Celebration</label>
+            </value>
+            <value>
+                <fullName>Chair Medallion</fullName>
+                <default>false</default>
+                <label>Chair Medallion</label>
+            </value>
+            <value>
+                <fullName>Coach Whistle</fullName>
+                <default>false</default>
+                <label>Coach Whistle</label>
+            </value>
+            <value>
+                <fullName>Commencement Stole</fullName>
+                <default>false</default>
+                <label>Commencement Stole</label>
+            </value>
+            <value>
+                <fullName>Custom Photobook</fullName>
+                <default>false</default>
+                <label>Custom Photobook</label>
+            </value>
+            <value>
+                <fullName>Custom token</fullName>
+                <default>false</default>
+                <label>Custom token</label>
+            </value>
+            <value>
+                <fullName>Dedication</fullName>
+                <default>false</default>
+                <label>Dedication</label>
+            </value>
+            <value>
+                <fullName>Dedication photobook</fullName>
+                <default>false</default>
+                <label>Dedication photobook</label>
+            </value>
+            <value>
+                <fullName>Dedication Token</fullName>
+                <default>false</default>
+                <label>Dedication Token</label>
+            </value>
+            <value>
+                <fullName>Digital Display</fullName>
+                <default>false</default>
+                <label>Digital Display</label>
+            </value>
+            <value>
+                <fullName>Endowed Chair Wall</fullName>
+                <default>false</default>
+                <label>Endowed Chair Wall</label>
+            </value>
+            <value>
+                <fullName>Event Gift</fullName>
+                <default>false</default>
+                <label>Event Gift</label>
+            </value>
+            <value>
+                <fullName>Event Photobook</fullName>
+                <default>false</default>
+                <label>Event Photobook</label>
+            </value>
+            <value>
+                <fullName>Experience</fullName>
+                <default>false</default>
+                <label>Experience</label>
+            </value>
+            <value>
+                <fullName>Financial report</fullName>
+                <default>false</default>
+                <label>Financial report</label>
+            </value>
+            <value>
+                <fullName>Founders Wall</fullName>
+                <default>false</default>
+                <label>Founders Wall</label>
+            </value>
+            <value>
+                <fullName>Gift announcement</fullName>
+                <default>false</default>
+                <label>Gift announcement</label>
+            </value>
+            <value>
+                <fullName>Groundbreaking</fullName>
+                <default>false</default>
+                <label>Groundbreaking</label>
+            </value>
+            <value>
+                <fullName>Impact communication</fullName>
+                <default>false</default>
+                <label>Impact communication</label>
+            </value>
+            <value>
+                <fullName>Impact Report</fullName>
+                <default>false</default>
+                <label>Impact Report</label>
+            </value>
+            <value>
+                <fullName>Individual public recognition display</fullName>
+                <default>false</default>
+                <label>Individual public recognition display</label>
+            </value>
+            <value>
+                <fullName>Mass</fullName>
+                <default>false</default>
+                <label>Mass</label>
+            </value>
+            <value>
+                <fullName>Note</fullName>
+                <default>false</default>
+                <label>Note</label>
+            </value>
+            <value>
+                <fullName>Other Gift</fullName>
+                <default>false</default>
+                <label>Other Gift</label>
+            </value>
+            <value>
+                <fullName>Press Release</fullName>
+                <default>false</default>
+                <label>Press Release</label>
+            </value>
+            <value>
+                <fullName>Rectorship Gift</fullName>
+                <default>false</default>
+                <label>Rectorship Gift</label>
+            </value>
+            <value>
+                <fullName>Scholars gathering</fullName>
+                <default>false</default>
+                <label>Scholars gathering</label>
+            </value>
+            <value>
+                <fullName>Speaking opportunity</fullName>
+                <default>false</default>
+                <label>Speaking opportunity</label>
+            </value>
+            <value>
+                <fullName>Student Thank You Note</fullName>
+                <default>false</default>
+                <label>Student Thank You Note</label>
+            </value>
+            <value>
+                <fullName>University Press Release</fullName>
+                <default>false</default>
+                <label>University Press Release</label>
+            </value>
+            <value>
+                <fullName>Video</fullName>
+                <default>false</default>
+                <label>Video</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Blessing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Celebration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Dedication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Groundbreaking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Mass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Scholars gathering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event</controllingFieldValue>
+            <valueName>Speaking opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Recognition</controllingFieldValue>
+            <valueName>Building/Space Recognition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Recognition</controllingFieldValue>
+            <valueName>Digital Display</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Recognition</controllingFieldValue>
+            <valueName>Endowed Chair Wall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Recognition</controllingFieldValue>
+            <valueName>Founders Wall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Recognition</controllingFieldValue>
+            <valueName>Gift announcement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Recognition</controllingFieldValue>
+            <valueName>Press Release</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gift</controllingFieldValue>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Blessed rosary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gift</controllingFieldValue>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Custom Photobook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gift</controllingFieldValue>
+            <valueName>Custom token</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gift</controllingFieldValue>
+            <valueName>Dedication photobook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gift</controllingFieldValue>
+            <valueName>Dedication Token</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Capital Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Financial report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Impact Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Note</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Student Thank You Note</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Campaign Gift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Chair Medallion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Coach Whistle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Commencement Stole</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Event Gift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Event Photobook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Other Gift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Personal Recognition</controllingFieldValue>
+            <valueName>Rectorship Gift</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

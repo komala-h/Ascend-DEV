@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Proposal_AutoNumber2__c</fullName>
+    <displayFormat>{00000}</displayFormat>
+    <externalId>true</externalId>
+    <label>Proposal AutoNumber2</label>
+    <trackHistory>false</trackHistory>
+    <type>AutoNumber</type>
+</CustomField>

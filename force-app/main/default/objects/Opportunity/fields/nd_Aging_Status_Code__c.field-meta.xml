@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Aging_Status_Code__c</fullName>
+    <description>This field displays the color indicating the aging of the opportunity</description>
+    <externalId>false</externalId>
+    <formula>IF(RecordType.DeveloperName=&apos;Proposal&apos;,
+(IF(Account.RecordType.DeveloperName==&apos;Household&apos;||Account.RecordType.DeveloperName==&apos;Corporations_and_Organizations&apos;,
+(IF(ISPICKVAL(StageName,&apos;Planning&apos;),
+(IF(nd_activePRM__c=false,
+IMAGE(&apos;/resource/Color/Color/Red.png&apos;,&apos;R&apos;,15,15)
+,IF(ISBLANK(ucinn_ascendv2__Submitted_Date__c), IMAGE(&apos;/resource/Color/Color/Red.png&apos;,&apos;R&apos;,15,15),
+(IF(((ucinn_ascendv2__Submitted_Date__c&gt;TODAY())&amp;&amp;((ucinn_ascendv2__Submitted_Date__c-TODAY())&lt;30)),
+IMAGE(&apos;/resource/Color/Color/Yellow.png&apos;,&apos;Y&apos;,15,15)
+,IF(((ucinn_ascendv2__Submitted_Date__c&gt;TODAY())&amp;&amp;((ucinn_ascendv2__Submitted_Date__c-TODAY())&lt;90)&amp;&amp;(ISBLANK(Account.nd_LastCRDate__c)|| (((TODAY()-Account.nd_LastCRDate__c)&gt;90)&amp;&amp;((TODAY()-Account.nd_LastCRDate__c)&lt;=180))) ),
+IMAGE(&apos;/resource/Color/Color/Red.png&apos;,&apos;R&apos;,15,15)
+,IF(((ucinn_ascendv2__Submitted_Date__c&gt;TODAY())&amp;&amp;((ucinn_ascendv2__Submitted_Date__c-TODAY())&lt;180)&amp;&amp;(ISBLANK(Account.nd_LastCRDate__c) || ((TODAY()-Account.nd_LastCRDate__c)&gt;180))),
+IMAGE(&apos;/resource/Color/Color/Yellow.png&apos;,&apos;Y&apos;,15,15)
+,IF(((ucinn_ascendv2__Submitted_Date__c&lt;TODAY())&amp;&amp;((TODAY()-ucinn_ascendv2__Submitted_Date__c)&gt;7)),IMAGE(&apos;/resource/Color/Color/Red.png&apos;,&apos;R&apos;,15,15)
+,IMAGE(&apos;/resource/Color/Color/Green.png&apos;,&apos;G&apos;,15,15))
+)))))
+)),
+IF(ISPICKVAL(StageName,&apos;Pending&apos;),
+(IF(nd_activePRM__c=false,
+IMAGE(&apos;/resource/Color/Color/Red.png&apos;,&apos;R&apos;,15,15),
+IF(ISBLANK(nd_Answer_Date__c), IMAGE(&apos;/resource/Color/Color/Red.png&apos;,&apos;R&apos;,15,15),
+(IF(((nd_daysInPending__c&lt;60)&amp;&amp;(nd_Answer_Date__c&gt;TODAY())&amp;&amp;((nd_Answer_Date__c-TODAY())&lt;30)),
+IMAGE(&apos;/resource/Color/Color/Yellow.png&apos;,&apos;Y&apos;,15,15),
+IF((Account.RecordType.DeveloperName==&apos;Household&apos;&amp;&amp;(nd_daysInPending__c&lt;60)&amp;&amp;(nd_Answer_Date__c&lt;TODAY())&amp;&amp;((TODAY()-nd_Answer_Date__c)&gt;7))||(Account.RecordType.DeveloperName==&apos;Corporations_and_Organizations&apos;&amp;&amp;(nd_daysInPending__c&lt;120)&amp;&amp;(nd_Answer_Date__c&lt;TODAY())&amp;&amp;((TODAY()-nd_Answer_Date__c)&gt;60)),
+IMAGE(&apos;/resource/Color/Color/Red.png&apos;,&apos;R&apos;,15,15),
+IF((Account.RecordType.DeveloperName==&apos;Household&apos;&amp;&amp;((nd_daysInPending__c&gt;60)&amp;&amp;(nd_daysInPending__c&lt;=90))&amp;&amp;(ISBLANK(Account.nd_LastCRDate__c)|| (((TODAY()-Account.nd_LastCRDate__c)&gt;60)&amp;&amp;((TODAY()-Account.nd_LastCRDate__c)&lt;=90))))
+||((Account.RecordType.DeveloperName==&apos;Corporations_and_Organizations&apos;&amp;&amp;((nd_daysInPending__c&gt;120)&amp;&amp;(nd_daysInPending__c&lt;=180))&amp;&amp; (ISBLANK(Account.nd_LastCRDate__c) ||(((TODAY()-Account.nd_LastCRDate__c)&gt;120)&amp;&amp;((TODAY()-Account.nd_LastCRDate__c)&lt;=180))))),
+IMAGE(&apos;/resource/Color/Color/Yellow.png&apos;,&apos;Y&apos;,15,15),
+IF((Account.RecordType.DeveloperName==&apos;Household&apos;&amp;&amp;(nd_daysInPending__c&gt;90)&amp;&amp;(ISBLANK(Account.nd_LastCRDate__c)||((TODAY()-Account.nd_LastCRDate__c)&gt;90)   ) )
+||(Account.RecordType.DeveloperName==&apos;Corporations_and_Organizations&apos;&amp;&amp;(nd_daysInPending__c&gt;180)&amp;&amp; (ISBLANK(Account.nd_LastCRDate__c)||         ((TODAY()-Account.nd_LastCRDate__c)&gt;180))),
+IMAGE(&apos;/resource/Color/Color/Red.png&apos;,&apos;R&apos;,15,15),
+IMAGE(&apos;/resource/Color/Color/Green.png&apos;,&apos;G&apos;,15,15))
+)))))
+)),
+IF(ISPICKVAL(StageName,&apos;Approved&apos;),
+(IF((nd_activePRM__c=true),
+IF(((Account.RecordType.DeveloperName==&apos;Household&apos;&amp;&amp;(nd_daysInApproved__c&gt;20)&amp;&amp;(nd_daysInApproved__c&lt;=30)))
+||((Account.RecordType.DeveloperName==&apos;Corporations_and_Organizations&apos;&amp;&amp;(nd_daysInApproved__c&gt;270)&amp;&amp;(nd_daysInApproved__c&lt;=365))),
+IMAGE(&apos;/resource/Color/Color/Yellow.png&apos;,&apos;Y&apos;,15,15),
+IF((Account.RecordType.DeveloperName==&apos;Household&apos;&amp;&amp;(nd_daysInApproved__c&gt;30))
+||(Account.RecordType.DeveloperName==&apos;Corporations_and_Organizations&apos;&amp;&amp;(nd_daysInApproved__c&gt;365)),
+IMAGE(&apos;/resource/Color/Color/Red.png&apos;,&apos;R&apos;,15,15),
+IMAGE(&apos;/resource/Color/Color/Green.png&apos;,&apos;G&apos;,15,15))
+),
+&apos;&apos;
+)
+),
+&apos;&apos;)
+)
+
+)
+)
+,&apos;&apos;
+)
+),&apos;&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field displays the color indicating the aging of the opportunity</inlineHelpText>
+    <label>Aging Status Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

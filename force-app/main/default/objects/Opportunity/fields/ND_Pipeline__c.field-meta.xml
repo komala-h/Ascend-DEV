@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Pipeline__c</fullName>
+    <description>Describes where the gift came from.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Describes where the gift came from.</inlineHelpText>
+    <label>Pipeline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Pipeline</valueSetName>
+    </valueSet>
+</CustomField>

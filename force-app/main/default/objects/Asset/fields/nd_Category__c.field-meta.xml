@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Public Recognition</fullName>
+                <default>false</default>
+                <label>Public Recognition</label>
+            </value>
+            <value>
+                <fullName>Walls of Recognition</fullName>
+                <default>false</default>
+                <label>Walls of Recognition</label>
+            </value>
+            <value>
+                <fullName>Personal Recognition</fullName>
+                <default>false</default>
+                <label>Personal Recognition</label>
+            </value>
+            <value>
+                <fullName>Stewardship Communication</fullName>
+                <default>false</default>
+                <label>Stewardship Communication</label>
+            </value>
+            <value>
+                <fullName>Stewardship Events</fullName>
+                <default>false</default>
+                <label>Stewardship Events</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

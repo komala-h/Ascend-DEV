@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proposal_Type__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Proposal Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>V</fullName>
+                <default>true</default>
+                <label>V-Fundraiser</label>
+            </value>
+            <value>
+                <fullName>E</fullName>
+                <default>false</default>
+                <label>E-CFR External</label>
+            </value>
+            <value>
+                <fullName>W</fullName>
+                <default>false</default>
+                <label>W-CFR Written</label>
+            </value>
+            <value>
+                <fullName>R</fullName>
+                <default>false</default>
+                <label>R-Recognition Society</label>
+            </value>
+            <value>
+                <fullName>O-CFR Online</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>O-CFR Online</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

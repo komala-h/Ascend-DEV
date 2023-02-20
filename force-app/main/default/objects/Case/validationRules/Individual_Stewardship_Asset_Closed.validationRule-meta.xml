@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Individual_Stewardship_Asset_Closed</fullName>
+    <active>true</active>
+    <description>To close this case, please create a Stewardship Item.</description>
+    <errorConditionFormula>nd_Case_Record_Type_Dev_Name__c = &quot;Individual_Stewardship&quot; &amp;&amp;
+ TEXT(Status) = &quot;Closed&quot; &amp;&amp;  ISBLANK(AssetId)</errorConditionFormula>
+    <errorMessage>To close this case, please create a Stewardship Item.</errorMessage>
+</ValidationRule>

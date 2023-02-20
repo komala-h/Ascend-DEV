@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Renewal_Recommendation__c</fullName>
+    <description>Tracks renewal recommendation type</description>
+    <externalId>false</externalId>
+    <label>Renewal Recommendation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Council 1 Year Renewal</fullName>
+                <default>false</default>
+                <label>Council 1 Year Renewal</label>
+            </value>
+            <value>
+                <fullName>Council 3 Year Renewal</fullName>
+                <default>false</default>
+                <label>Council 3 Year Renewal</label>
+            </value>
+            <value>
+                <fullName>Council Recommend Renewal</fullName>
+                <default>false</default>
+                <label>Council Recommend Renewal</label>
+            </value>
+            <value>
+                <fullName>Council Recommend Retire</fullName>
+                <default>false</default>
+                <label>Council Recommend Retire</label>
+            </value>
+            <value>
+                <fullName>Council Transfer</fullName>
+                <default>false</default>
+                <label>Council Transfer</label>
+            </value>
+            <value>
+                <fullName>Defer to Council Leadership/Non Dev Interest</fullName>
+                <default>false</default>
+                <label>Defer to Council Leadership/Non Dev Interest</label>
+            </value>
+            <value>
+                <fullName>Member Self Retire</fullName>
+                <default>false</default>
+                <label>Member Self Retire</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

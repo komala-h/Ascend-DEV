@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Constituent_not_RC_or_RE</fullName>
+    <active>true</active>
+    <description>Ensures that the Constituent associated with a Gift does not have a Constituent Type of Related Child or Related Entity</description>
+    <errorConditionFormula>AND(
+
+NOT(ISBLANK(ucinn_ascendv2__Contact__c)),
+
+CONTAINS(ucinn_ascendv2__Contact__r.ucinn_ascendv2__Primary_Contact_Type__c , &quot;Related&quot;)
+
+)</errorConditionFormula>
+    <errorDisplayField>ucinn_ascendv2__Contact__c</errorDisplayField>
+    <errorMessage>Constituents associated with Gifts must not have a Constituent Type of Related Child or Related Entity</errorMessage>
+</ValidationRule>

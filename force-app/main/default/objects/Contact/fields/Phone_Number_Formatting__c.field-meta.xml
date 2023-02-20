@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Number_Formatting__c</fullName>
+    <defaultValue>&quot;Enter phone numbers without formatting i.e. xxxxxxxxxx&quot;</defaultValue>
+    <description>Custom field added because the standard phone fields do not allow for adding help text.  This field will be placed on the page layout close to the phone number entry fields.</description>
+    <externalId>false</externalId>
+    <label>Phone Number Formatting</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

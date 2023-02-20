@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPV_Required_for_Deferred_Gifts</fullName>
+    <active>true</active>
+    <description>Require a value in the NPV field when the field is displayed.</description>
+    <errorConditionFormula>AND(
+
+ISBLANK( ND_Net_Present_Value__c ),
+
+OR(ISPICKVAL( Type , &apos;T1&apos;), ISPICKVAL( Type , &apos;T4&apos;), ISPICKVAL( Type , &apos;TH&apos;), ISPICKVAL( Type , &apos;Q1&apos;), ISPICKVAL( Type , &apos;Q2&apos;), ISPICKVAL( Type , &apos;Q3&apos;), ISPICKVAL( Type , &apos;Q4&apos;), ISPICKVAL( Type , &apos;Q5&apos;), ISPICKVAL( Type , &apos;QA&apos;), ISPICKVAL( Type , &apos;QB&apos;), ISPICKVAL( Type , &apos;QC&apos;), ISPICKVAL( Type , &apos;QD&apos;), ISPICKVAL( Type , &apos;QE&apos;), ISPICKVAL( Type , &apos;QF&apos;), ISPICKVAL( Type , &apos;QP&apos;), ISPICKVAL( Type , &apos;QR&apos;)
+
+)
+
+)</errorConditionFormula>
+    <errorDisplayField>ND_Net_Present_Value__c</errorDisplayField>
+    <errorMessage>A value is required for the Net Present Value.</errorMessage>
+</ValidationRule>

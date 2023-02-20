@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Date_After_Approved_Stage_Change__c</fullName>
+    <description>This field holds the date when the opportunity stage was changed from Approved to its next stage</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field holds the date when the opportunity stage was changed from Approved to its next stage</inlineHelpText>
+    <label>Date After Approved Stage Change</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

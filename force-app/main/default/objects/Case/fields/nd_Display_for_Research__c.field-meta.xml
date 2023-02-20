@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Display_for_Research__c</fullName>
+    <description>Indicator for whether or not the case owner has a Research role</description>
+    <externalId>false</externalId>
+    <formula>Owner:User.UserRole.Name=&quot;Development Research&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicator for whether or not the case owner has a Research role</inlineHelpText>
+    <label>Display for Research</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

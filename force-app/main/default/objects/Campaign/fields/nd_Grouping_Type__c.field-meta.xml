@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Grouping_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Grouping Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Football</fullName>
+                <default>false</default>
+                <label>Football</label>
+            </value>
+            <value>
+                <fullName>Basketball Men</fullName>
+                <default>false</default>
+                <label>Basketball Men</label>
+            </value>
+            <value>
+                <fullName>Basketball Women</fullName>
+                <default>false</default>
+                <label>Basketball Women</label>
+            </value>
+            <value>
+                <fullName>Hockey</fullName>
+                <default>false</default>
+                <label>Hockey</label>
+            </value>
+            <value>
+                <fullName>Concert</fullName>
+                <default>false</default>
+                <label>Concert</label>
+            </value>
+            <value>
+                <fullName>Stadium Event</fullName>
+                <default>false</default>
+                <label>Stadium Event</label>
+            </value>
+            <value>
+                <fullName>Academic</fullName>
+                <default>false</default>
+                <label>Academic</label>
+            </value>
+            <value>
+                <fullName>Baseball</fullName>
+                <default>false</default>
+                <label>Baseball</label>
+            </value>
+            <value>
+                <fullName>Soccer Men</fullName>
+                <default>false</default>
+                <label>Soccer Men</label>
+            </value>
+            <value>
+                <fullName>Soccer Women</fullName>
+                <default>false</default>
+                <label>Soccer Women</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

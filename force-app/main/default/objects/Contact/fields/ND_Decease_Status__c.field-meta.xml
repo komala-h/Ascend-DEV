@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Decease_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Decease Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Decease Notified</fullName>
+                <default>false</default>
+                <label>Decease Notified</label>
+            </value>
+            <value>
+                <fullName>Pending Obituary</fullName>
+                <default>false</default>
+                <label>Pending Obituary</label>
+            </value>
+            <value>
+                <fullName>Decease Confirmed</fullName>
+                <default>false</default>
+                <label>Decease Confirmed</label>
+            </value>
+            <value>
+                <fullName>Decease Unconfirmed Final</fullName>
+                <default>false</default>
+                <label>Decease Unconfirmed Final</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

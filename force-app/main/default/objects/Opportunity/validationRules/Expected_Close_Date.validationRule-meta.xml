@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expected_Close_Date</fullName>
+    <active>false</active>
+    <description>Expected Close Date is required when the stage is not Cancelled, Declined, or Booked</description>
+    <errorConditionFormula>RecordType.Name = &quot;Proposal&quot; &amp;&amp;
+OR(
+TEXT(StageName) &lt;&gt; &quot;Cancelled&quot;,
+TEXT(StageName) &lt;&gt; &quot;Declined&quot;,
+TEXT(StageName) &lt;&gt; &quot;Booked&quot;
+) &amp;&amp;
+ ISBLANK(ucinn_ascendv2__Expected_Close_Date__c)</errorConditionFormula>
+    <errorDisplayField>ucinn_ascendv2__Expected_Close_Date__c</errorDisplayField>
+    <errorMessage>Expected Close Date is required when the stage is not Cancelled, Declined, or Booked</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adjustment_Reason_Note_Required</fullName>
+    <active>false</active>
+    <description>Note Required if the adjustment reason is Other or Designation Transfer</description>
+    <errorConditionFormula>ISBLANK( ucinn_ascendv2__Notes__c ) &amp;&amp;  OR(INCLUDES( ucinn_ascendv2__Adjustment_Reason_v1__c , &quot;Other&quot;),INCLUDES( ucinn_ascendv2__Adjustment_Reason_v1__c , &quot;Designation Transfer&quot;))</errorConditionFormula>
+    <errorDisplayField>ucinn_ascendv2__Adjustment_Reason_v1__c</errorDisplayField>
+    <errorMessage>Please fill in the Notes section</errorMessage>
+</ValidationRule>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_of_Anonymity__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Anonymous Donor - donor themselves and all commitments are anonymous
+Anonymous Pledge - donor is not anonymous, but the specific pledge is
+Anonymous Donor Record - anonymous donor record is linked to the Constituent and associated to the pledge (this is not visible on the Constituent&apos;s reports but linked through the anonymous donor record)</inlineHelpText>
+    <label>Level of Anonymity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anonymous Donor</fullName>
+                <default>false</default>
+                <label>Anonymous Donor</label>
+            </value>
+            <value>
+                <fullName>Anonymous Pledge</fullName>
+                <default>false</default>
+                <label>Anonymous Pledge</label>
+            </value>
+            <value>
+                <fullName>Anonymous Donor Record</fullName>
+                <default>false</default>
+                <label>Anonymous Donor Record</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

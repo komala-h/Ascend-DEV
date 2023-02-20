@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_Asset_Date</fullName>
+    <active>true</active>
+    <description>Date field must be populated when the Status is Completed or Declined</description>
+    <errorConditionFormula>OR(
+ISBLANK( nd_Date__c ) &amp;&amp; TEXT( Status ) = &quot;Completed&quot;,
+ISBLANK( nd_Date__c ) &amp;&amp; TEXT( Status ) = &quot;Declined&quot;,
+NOT(ISBLANK( nd_Date__c )) &amp;&amp; TEXT( Status ) &lt;&gt; &quot;Completed&quot;)
+&amp;&amp; nd_Record_Type_Dev_Name__c &lt;&gt; &quot;Stewardship_Item&quot;</errorConditionFormula>
+    <errorMessage>Date field must be populated only when the Status is Completed or Declined</errorMessage>
+</ValidationRule>

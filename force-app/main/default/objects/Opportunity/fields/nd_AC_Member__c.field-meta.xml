@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_AC_Member__c</fullName>
+    <description>Indicates whether or not the constituent is an Advisory Council member.</description>
+    <externalId>false</externalId>
+    <formula>CONTAINS(ucinn_ascendv2__Contact__r.nd_Institutional_Suffix__c,&quot;CN&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates whether or not the constituent is an Advisory Council member.</inlineHelpText>
+    <label>AC Member</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

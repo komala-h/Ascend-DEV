@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stewardship_Acknowledgement_Compact</fullName>
+    <fields>Subject</fields>
+    <fields>Status</fields>
+    <fields>CaseNumber</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Type</fields>
+    <fields>nd_Link_to_Letter__c</fields>
+    <label>Stewardship Acknowledgement Compact</label>
+</CompactLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_daysInPlanning__c</fullName>
+    <description>This field tells the number of days the opportunity is in Planning stage</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+NOT (ISBLANK(nd_PendingDate__c)) ,
+( nd_PendingDate__c - nd_PlanningDate__c),
+( TODAY() - nd_PlanningDate__c)
+)</formula>
+    <inlineHelpText>This field tells the number of days the opportunity is in Planning stage</inlineHelpText>
+    <label>No of days in Planning</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

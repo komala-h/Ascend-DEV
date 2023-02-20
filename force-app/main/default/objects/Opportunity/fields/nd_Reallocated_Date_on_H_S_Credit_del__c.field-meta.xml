@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Reallocated_Date_on_H_S_Credit_del__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>An indicator that one of the Hard and Soft Credit records associated with this gift has the Reallocated Date field populated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>An indicator that one of the Hard and Soft Credit records associated with this gift has the Reallocated Date field populated.</inlineHelpText>
+    <label>Reallocated Date on H/S Credit</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

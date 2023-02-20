@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Info</fullName>
+    <active>true</active>
+    <description>One form of Contact Information is required to save a Contact Card</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName  &lt;&gt; &quot;Non_Constituent_Relationship&quot;,
+ISBLANK(Constituent__c),
+AND(
+ISBLANK(Email__c),
+ISBLANK(Phone_Number__c)
+))</errorConditionFormula>
+    <errorMessage>Please indicate either a Phone or Email.</errorMessage>
+</ValidationRule>

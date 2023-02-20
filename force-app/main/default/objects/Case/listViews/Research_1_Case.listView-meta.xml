@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Research_1_Case</fullName>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Requested_By__c</columns>
+    <columns>Requested_Completion_Date__c</columns>
+    <columns>Primary_Solicitor_of_Prospect__c</columns>
+    <columns>Capacity_Rating__c</columns>
+    <columns>Preferred_Address_State_Code__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Unassigned Research 1 Requests</label>
+    <queue>Research</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

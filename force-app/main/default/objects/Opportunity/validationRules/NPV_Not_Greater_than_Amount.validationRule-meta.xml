@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPV_Not_Greater_than_Amount</fullName>
+    <active>true</active>
+    <description>NPV Cannot be greater than the Gift or Pledge Amount</description>
+    <errorConditionFormula>AND( ucinn_ascendv2__Credit_Date__c &gt; DATE(2011,06,30) ,
+
+NOT( ISNULL(ND_Net_Present_Value__c) ),
+
+ND_Net_Present_Value__c &gt;  Amount  )</errorConditionFormula>
+    <errorDisplayField>ND_Net_Present_Value__c</errorDisplayField>
+    <errorMessage>NPV cannot be more than the Payment Amount</errorMessage>
+</ValidationRule>

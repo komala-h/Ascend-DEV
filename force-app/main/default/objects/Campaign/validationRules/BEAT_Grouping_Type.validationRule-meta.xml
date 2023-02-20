@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BEAT_Grouping_Type</fullName>
+    <active>true</active>
+    <description>When Grouping is Sport, then Grouping Type is required.</description>
+    <errorConditionFormula>nd_Campaign_Record_Type_Dev_Name__c = &quot;BEAT_Event&quot; &amp;&amp;
+TEXT(nd_Grouping__c) = &quot;Sport&quot; &amp;&amp;
+ISBLANK(TEXT( nd_Grouping_Type__c ))</errorConditionFormula>
+    <errorMessage>When Grouping is Sport, then Grouping Type is required.</errorMessage>
+</ValidationRule>

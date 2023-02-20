@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Constituent_must_be_Active</fullName>
+    <active>false</active>
+    <description>Ensures that the Constituent associated with a Gift has a status of &apos;Active&apos;.</description>
+    <errorConditionFormula>AND(
+
+NOT(ISBLANK(ucinn_ascendv2__Contact__c)),
+
+OR(
+
+ISPICKVAL(ucinn_ascendv2__Contact__r.Constituent_Status__c,&quot;F&quot;),
+
+ISPICKVAL(ucinn_ascendv2__Contact__r.Constituent_Status__c,&quot;L&quot;),
+
+ISPICKVAL(ucinn_ascendv2__Contact__r.Constituent_Status__c,&quot;X&quot;)
+),
+
+($User.ND_Bypass_Duplicate_Rules__c  = FALSE)
+
+)</errorConditionFormula>
+    <errorDisplayField>ucinn_ascendv2__Contact__c</errorDisplayField>
+    <errorMessage>Constituents associated with Proposals or Gifts must have a status of &apos;Active&apos;</errorMessage>
+</ValidationRule>

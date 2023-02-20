@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Matching_Gift_Id__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This attribute captures the Gift ID from the Matching Gift Company when the matching gift claim is confirmed.</inlineHelpText>
+    <label>Matching Gift Id</label>
+    <length>80</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

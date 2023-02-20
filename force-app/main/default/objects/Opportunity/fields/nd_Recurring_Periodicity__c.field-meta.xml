@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Recurring_Periodicity__c</fullName>
+    <description>A number field representing the periodicity of recurring gifts.  The number in this field is &quot;12&quot; if someone has monthly payments set up, &quot;4&quot; if someone has quarterly payments set up, etc.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A number field representing the periodicity of recurring gifts.  The number in this field is &quot;12&quot; if someone has monthly payments set up, &quot;4&quot; if someone has quarterly payments set up, etc.</inlineHelpText>
+    <label>Recurring Periodicity</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

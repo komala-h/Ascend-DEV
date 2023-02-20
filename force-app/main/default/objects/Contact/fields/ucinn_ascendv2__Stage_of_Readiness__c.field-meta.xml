@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ucinn_ascendv2__Stage_of_Readiness__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Stage of Readiness</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Qualification</fullName>
+                <default>false</default>
+                <label>Qualification</label>
+            </value>
+            <value>
+                <fullName>Cultivation 18-24 Months</fullName>
+                <default>false</default>
+                <label>Cultivation 18-24 Months</label>
+            </value>
+            <value>
+                <fullName>Cultivation 12-18 Months</fullName>
+                <default>false</default>
+                <label>Cultivation 12-18 Months</label>
+            </value>
+            <value>
+                <fullName>Cultivation 6-12 Months</fullName>
+                <default>false</default>
+                <label>Cultivation 6-12 Months</label>
+            </value>
+            <value>
+                <fullName>Solicitation</fullName>
+                <default>false</default>
+                <label>Solicitation</label>
+            </value>
+            <value>
+                <fullName>Stewardship</fullName>
+                <default>false</default>
+                <label>Stewardship</label>
+            </value>
+            <value>
+                <fullName>Not a Prospect</fullName>
+                <default>false</default>
+                <label>Not a Prospect</label>
+            </value>
+            <value>
+                <fullName>Not a Major Gift Prospect</fullName>
+                <default>false</default>
+                <label>Not a Major Gift Prospect</label>
+            </value>
+            <value>
+                <fullName>Do Not Assign</fullName>
+                <default>false</default>
+                <label>Do Not Assign</label>
+            </value>
+            <value>
+                <fullName>Identification</fullName>
+                <default>false</default>
+                <label>Identification</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Stewardship - Permanent</fullName>
+                <default>false</default>
+                <label>Stewardship - Permanent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

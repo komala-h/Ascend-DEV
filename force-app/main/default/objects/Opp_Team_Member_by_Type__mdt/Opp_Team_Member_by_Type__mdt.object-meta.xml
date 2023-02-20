@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Assign Opportunity Team Members based on Opportunity Type</description>
+    <label>Opp Team Member by Type</label>
+    <pluralLabel>Opp Team Member by Types</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

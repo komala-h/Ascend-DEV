@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SRD_Assignment_Request_Review</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Household_or_Organization__c</columns>
+    <columns>Fundraiser__c</columns>
+    <columns>Assignment_Change_Type__c</columns>
+    <columns>Background__c</columns>
+    <columns>Reason_for_Drop__c</columns>
+    <columns>Revisit_Date__c</columns>
+    <columns>Assignment_Request_Stage__c</columns>
+    <columns>Rejection_Reason__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Assignment_Request</value>
+    </filters>
+    <filters>
+        <field>Assignment_Request_Stage__c</field>
+        <operation>equals</operation>
+        <value>SRD Review</value>
+    </filters>
+    <label>SRD Assignment Request Review</label>
+</ListView>

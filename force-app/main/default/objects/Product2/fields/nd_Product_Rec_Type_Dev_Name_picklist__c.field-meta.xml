@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Product_Rec_Type_Dev_Name_picklist__c</fullName>
+    <defaultValue>$RecordType.DeveloperName</defaultValue>
+    <externalId>false</externalId>
+    <label>Product Rec Type Dev Name (picklist)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stewardship_Item</fullName>
+                <default>false</default>
+                <label>Stewardship_Item</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

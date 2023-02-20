@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Person_JobTitle</fullName>
+    <active>false</active>
+    <description>Job title required for Contact Person</description>
+    <errorConditionFormula>AND(
+RecordType.Name = &quot;New Contact Person&quot;,
+ISBLANK(Job_Title__c)
+)</errorConditionFormula>
+    <errorMessage>A Job Title is required for a Contact Person</errorMessage>
+</ValidationRule>

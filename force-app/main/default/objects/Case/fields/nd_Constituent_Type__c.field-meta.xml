@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Constituent_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;AL&quot; ), &quot;Alumni;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;AW&quot; ), &quot;Alumni Widow;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;SA&quot; ), &quot;Confirmed Admitted Student&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;EM&quot; ), &quot;Employee;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;EF&quot; ), &quot;Former Employee;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;FR&quot; ), &quot;Friend;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;SW&quot; ), &quot;Non-Returning Student;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;PA&quot; ), &quot;Parent;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;PN&quot; ), &quot;Parent of Non-Returning Student;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;RC&quot; ), &quot;Related Child;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;RE&quot; ), &quot;Related Entity;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;ER&quot; ), &quot;Retired Employee;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;ST&quot; ), &quot;Student;&quot;,null ) &amp;
+IF ( INCLUDES (Contact.ucinn_ascendv2__Contact_Type__c, &quot;UI&quot; ), &quot;Unknown Individual;&quot;,null )</formula>
+    <label>Constituent Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

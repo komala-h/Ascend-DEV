@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_jv_type__c</fullName>
+    <description>This field is used to create a JV that goes back to Banner.</description>
+    <externalId>false</externalId>
+    <label>JV Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DV1</fullName>
+                <default>false</default>
+                <label>DV1</label>
+            </value>
+            <value>
+                <fullName>DV2</fullName>
+                <default>false</default>
+                <label>DV2</label>
+            </value>
+            <value>
+                <fullName>DV3</fullName>
+                <default>false</default>
+                <label>DV3</label>
+            </value>
+            <value>
+                <fullName>DV4</fullName>
+                <default>false</default>
+                <label>DV4</label>
+            </value>
+            <value>
+                <fullName>DV5</fullName>
+                <default>false</default>
+                <label>DV5</label>
+            </value>
+            <value>
+                <fullName>DV6</fullName>
+                <default>false</default>
+                <label>DV6</label>
+            </value>
+            <value>
+                <fullName>DV7</fullName>
+                <default>false</default>
+                <label>DV7</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Deferred_Gift__c</fullName>
+    <description>Opportunity: Transaction type STARTS WITH Q or T OR equal to PD</description>
+    <externalId>false</externalId>
+    <formula>OR(LEFT(TEXT(Type), 1) = &quot;Q&quot;,
+			LEFT(TEXT(Type), 1) = &quot;T&quot;,
+			TEXT(Type) = &quot;PD&quot;)</formula>
+    <inlineHelpText>Stewardship Case Generation: Deferred Gift Flag</inlineHelpText>
+    <label>Deferred Gift</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

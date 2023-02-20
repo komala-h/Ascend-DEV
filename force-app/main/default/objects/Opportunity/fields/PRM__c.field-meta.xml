@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PRM__c</fullName>
+    <description>This is the PRM of the donor on an opportunity record.</description>
+    <externalId>false</externalId>
+    <formula>Account.ucinn_ascendv2__PRM__r.FirstName +&quot; &quot;+ Account.ucinn_ascendv2__PRM__r.LastName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is the PRM of the donor on an opportunity record.</inlineHelpText>
+    <label>PRM</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Unassigned_Research_Requests</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Due_Date__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Primary_Solicitor_of_Prospect__c</columns>
+    <columns>Requested_By__c</columns>
+    <columns>Capacity_Rating__c</columns>
+    <columns>Household_PRM_Region__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Escalated,Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Research_Requests</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Research</value>
+    </filters>
+    <label>All Unassigned Research Requests</label>
+</ListView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leadership_Campaign__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Use this field to lookup Campaign Events</description>
+    <externalId>false</externalId>
+    <label>Campaign Events</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Campaign.RecordType.DeveloperName</field>
+            <operation>contains</operation>
+            <value>Leadership</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Campaign Event Members</relationshipLabel>
+    <relationshipName>Campaign_Members</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

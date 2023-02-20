@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Designation_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(ND_Designation_Account__c)), ND_Designation_Detail__r.ucinn_ascendv2__Acknowledgement_Description_Formula__c &amp; &quot;, &quot; &amp; TEXT(ND_Designation_Detail__r.ucinn_ascendv2__Designation__r.ucinn_ascendv2__Fund_Type__c), &quot;&quot;)</formula>
+    <inlineHelpText>Designation Name and Classification of Gift (Designation Fund Type)</inlineHelpText>
+    <label>Designation Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

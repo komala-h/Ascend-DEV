@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pledge_must_not_be_deceased</fullName>
+    <active>true</active>
+    <description>Cannot create a new pledge against a deceased constituent except Revocable Bequest and Irrevocable Bequest.</description>
+    <errorConditionFormula>AND(
+
+NOT(ISBLANK(ucinn_ascendv2__Contact__c)),
+
+RecordType.Name = &quot;Pledge&quot;,
+
+($User.ND_Bypass_Duplicate_Rules__c = FALSE),
+
+ISPICKVAL(ucinn_ascendv2__Contact__r.Constituent_Status__c,&quot;D&quot;),
+
+NOT(
+
+OR(ISPICKVAL(Type,&quot;QB&quot;),
+ISPICKVAL(Type,&quot;QC&quot;)
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>ucinn_ascendv2__Contact__c</errorDisplayField>
+    <errorMessage>Cannot create a new pledge against a deceased constituent except Revocable Bequest and Irrevocable Bequest.</errorMessage>
+</ValidationRule>

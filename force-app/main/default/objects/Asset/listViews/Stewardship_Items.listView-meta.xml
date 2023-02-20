@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stewardship_Items</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>nd_Date__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.FAMILY_ENUM</columns>
+    <columns>ASSET.STATUS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>ASSET.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ASSET.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Asset.Stewardship_Item</value>
+    </filters>
+    <label>Stewardship Items</label>
+</ListView>

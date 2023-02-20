@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nd_Gift_Planning_Officer__c</fullName>
+    <description>Gift Planning Officer assigned to a Regional Director</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Gift Planning Officer assigned to a Regional Director</inlineHelpText>
+    <label>Gift Planning Officer</label>
+    <relationshipName>GPO</relationshipName>
+    <restrictedAdminField>false</restrictedAdminField>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Hierarchy</type>
+</CustomField>

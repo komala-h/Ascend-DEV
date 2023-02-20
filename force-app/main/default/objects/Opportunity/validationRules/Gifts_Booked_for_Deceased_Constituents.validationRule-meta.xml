@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gifts_Booked_for_Deceased_Constituents</fullName>
+    <active>true</active>
+    <description>Only the following type of gifts can be booked against deceased Constituents.
+T2 - Trust Held Elsewhere
+TA - Life Ins. death benefit
+TB - Bequest
+TG - IRA gift - Death benefit
+TX - Terminated trust</description>
+    <errorConditionFormula>IF( ISBLANK(ucinn_ascendv2__Contact__c), FALSE,
+
+AND(ISPICKVAL(ucinn_ascendv2__Contact__r.Constituent_Status__c, &quot;D&quot;),
+
+RecordType.Name = &quot;Gift&quot;,
+
+($User.ND_Bypass_Duplicate_Rules__c = FALSE),
+
+NOT(OR(ISPICKVAL(Type,&quot;T2&quot;),
+ISPICKVAL(Type,&quot;TA&quot;),
+ISPICKVAL(Type,&quot;TB&quot;),
+ISPICKVAL(Type,&quot;TG&quot;),
+ISPICKVAL(Type,&quot;TX&quot;)
+)
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>Only the following gifts can be booked against a deceased Constituent - T2-PGCLT, TA-PGEST, TB-PGBEQ, TG-PGIRA, TX-Terminated Trust</errorMessage>
+</ValidationRule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllContacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ucinn_ascendv2__Is_Deceased__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>Constituent_Status__c</columns>
+    <columns>ucinn_ascendv2__Marital_Status__c</columns>
+    <columns>ucinn_ascendv2__PRM__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Constituents</label>
+</ListView>

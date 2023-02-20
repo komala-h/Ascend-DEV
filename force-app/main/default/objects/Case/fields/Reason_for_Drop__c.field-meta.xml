@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Drop__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Drop</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fundraiser Disqualified</fullName>
+                <default>false</default>
+                <label>Fundraiser Disqualified as Leadership Donor</label>
+            </value>
+            <value>
+                <fullName>Location Issue</fullName>
+                <default>false</default>
+                <label>Location Issue</label>
+            </value>
+            <value>
+                <fullName>Non-Responsive</fullName>
+                <default>false</default>
+                <label>Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Timing Not Right - Personal</fullName>
+                <default>false</default>
+                <label>Timing Not Right Suitable for LAG- Personal</label>
+            </value>
+            <value>
+                <fullName>ND Sensitive Issue - University Related</fullName>
+                <default>false</default>
+                <label>ND Sensitive Issue - University Related</label>
+            </value>
+            <value>
+                <fullName>Next Generation</fullName>
+                <default>false</default>
+                <label>Next Generation</label>
+            </value>
+            <value>
+                <fullName>Rising Star</fullName>
+                <default>false</default>
+                <label>Rising Star</label>
+            </value>
+            <value>
+                <fullName>Liquidity</fullName>
+                <default>false</default>
+                <label>Liquidity</label>
+            </value>
+            <value>
+                <fullName>Timing Not Right, NOT Suitable for LAG - personal-related</fullName>
+                <default>false</default>
+                <label>Timing Not Right, NOT Suitable for LAG - personal-related</label>
+            </value>
+            <value>
+                <fullName>Does Not Want to Be Contacted by ND</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Does Not Want to Be Contacted by ND</label>
+            </value>
+            <value>
+                <fullName>Fundraiser Transition</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fundraiser Transition</label>
+            </value>
+            <value>
+                <fullName>Fundraiser transition, OK to reassign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fundraiser transition, OK to reassign</label>
+            </value>
+            <value>
+                <fullName>No Future Giving Expected</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Future Giving Expected</label>
+            </value>
+            <value>
+                <fullName>No ND Connection</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No ND Connection</label>
+            </value>
+            <value>
+                <fullName>Non-responsive prospect, OK to reassign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non-responsive prospect, OK to reassign</label>
+            </value>
+            <value>
+                <fullName>Portfolio Downsize</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Portfolio Downsize</label>
+            </value>
+            <value>
+                <fullName>Portfolio downsizing, OK to reassign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Portfolio downsizing, OK to reassign</label>
+            </value>
+            <value>
+                <fullName>Prospect location issue, OK to reassign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prospect location issue, OK to reassign</label>
+            </value>
+            <value>
+                <fullName>Qualified not leadership, don&apos;t reassign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Qualified not leadership, don&apos;t reassign</label>
+            </value>
+            <value>
+                <fullName>Retread, revisit at future date</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Retread, revisit at future date</label>
+            </value>
+            <value>
+                <fullName>Rising Star, revisit at future date</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rising Star, revisit at future date</label>
+            </value>
+            <value>
+                <fullName>Sensitive issue, revisit at future date</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sensitive issue, revisit at future date</label>
+            </value>
+            <value>
+                <fullName>Timing not right, revisit at future date</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Timing not right, revisit at future date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Religious_Order__c</fullName>
+    <externalId>false</externalId>
+    <label>Religious Order</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BRO</fullName>
+                <default>false</default>
+                <label>Brother</label>
+            </value>
+            <value>
+                <fullName>CSCBRO</fullName>
+                <default>false</default>
+                <label>C.S.C. Brother</label>
+            </value>
+            <value>
+                <fullName>CSCPRT</fullName>
+                <default>false</default>
+                <label>C.S.C. Priest</label>
+            </value>
+            <value>
+                <fullName>CSCSEM</fullName>
+                <default>false</default>
+                <label>C.S.C. Seminarian</label>
+            </value>
+            <value>
+                <fullName>CSCSIS</fullName>
+                <default>false</default>
+                <label>C.S.C. Sister</label>
+            </value>
+            <value>
+                <fullName>DEACON</fullName>
+                <default>false</default>
+                <label>Deacon</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PRIEST</fullName>
+                <default>false</default>
+                <label>Priest</label>
+            </value>
+            <value>
+                <fullName>PROMIN</fullName>
+                <default>false</default>
+                <label>Protestant Minister</label>
+            </value>
+            <value>
+                <fullName>RABBI</fullName>
+                <default>false</default>
+                <label>Rabbi</label>
+            </value>
+            <value>
+                <fullName>SEMINA</fullName>
+                <default>false</default>
+                <label>Seminarian</label>
+            </value>
+            <value>
+                <fullName>SISTER</fullName>
+                <default>false</default>
+                <label>Sister</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

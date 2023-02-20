@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Campaign_Event_Nomination__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup to the Campaign Event Nomination record that resulted in adding this Constituent record to the Campaign Event.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to the Campaign Event Nomination record that resulted in adding this Constituent record to the Campaign Event.</inlineHelpText>
+    <label>Campaign Event Nomination</label>
+    <referenceTo>ND_Campaign_Event_Nomination__c</referenceTo>
+    <relationshipLabel>Campaign Members</relationshipLabel>
+    <relationshipName>Campaign_Members</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

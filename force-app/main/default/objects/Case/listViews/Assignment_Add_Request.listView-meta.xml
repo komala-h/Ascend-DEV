@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assignment_Add_Request</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Assignment_Change_Type__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Reason_for_Drop__c</columns>
+    <columns>Assignment_Comment__c</columns>
+    <columns>Fundraiser__c</columns>
+    <columns>Capacity_Rating__c</columns>
+    <columns>Fundraiser_Region__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Canceled,Closed</value>
+    </filters>
+    <filters>
+        <field>Assignment_Change_Type__c</field>
+        <operation>equals</operation>
+        <value>Assignment Request,Assignment Drop</value>
+    </filters>
+    <label>My Assignment Add/Drop Request</label>
+</ListView>

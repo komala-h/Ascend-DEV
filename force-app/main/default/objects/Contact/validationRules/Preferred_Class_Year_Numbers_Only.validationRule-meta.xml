@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Class_Year_Numbers_Only</fullName>
+    <active>true</active>
+    <description>The Admit Year, Preferred Class Year, and Degree Year fields must contain numbers. Text fields were used to prevent Salesforce from showing these values with a comma so a validation rule is needed to ensure only numbers are used in these fields.</description>
+    <errorConditionFormula>AND(
+
+NOT(ISBLANK(ucinn_ascendv2__Preferred_Class_Year__c )),
+
+NOT(ISNUMBER(ucinn_ascendv2__Preferred_Class_Year__c))
+
+)</errorConditionFormula>
+    <errorDisplayField>ucinn_ascendv2__Preferred_Class_Year__c</errorDisplayField>
+    <errorMessage>Preferred Class Year must contain only numbers.</errorMessage>
+</ValidationRule>

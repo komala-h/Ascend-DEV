@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ucinn_ascendv2__Deceased_Source__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Deceased Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SS</fullName>
+                <default>false</default>
+                <label>Social Security Death Index</label>
+            </value>
+            <value>
+                <fullName>AF</fullName>
+                <default>false</default>
+                <label>Alumni Finder</label>
+            </value>
+            <value>
+                <fullName>DF</fullName>
+                <default>false</default>
+                <label>Deceased Unconfirmed Final</label>
+            </value>
+            <value>
+                <fullName>DM</fullName>
+                <default>false</default>
+                <label>Direct Mail Piece from Family</label>
+            </value>
+            <value>
+                <fullName>LF</fullName>
+                <default>false</default>
+                <label>Letter from Family</label>
+            </value>
+            <value>
+                <fullName>LO</fullName>
+                <default>false</default>
+                <label>Letter from other than Family</label>
+            </value>
+            <value>
+                <fullName>MM</fullName>
+                <default>false</default>
+                <label>Memorial Gift</label>
+            </value>
+            <value>
+                <fullName>MN</fullName>
+                <default>false</default>
+                <label>Memorial Notification</label>
+            </value>
+            <value>
+                <fullName>NE</fullName>
+                <default>false</default>
+                <label>Newspaper</label>
+            </value>
+            <value>
+                <fullName>OB</fullName>
+                <default>false</default>
+                <label>Obituary Death Index</label>
+            </value>
+            <value>
+                <fullName>PF</fullName>
+                <default>false</default>
+                <label>Phone Call from Family</label>
+            </value>
+            <value>
+                <fullName>PO</fullName>
+                <default>false</default>
+                <label>Phone Call from Other than Family</label>
+            </value>
+            <value>
+                <fullName>PH</fullName>
+                <default>false</default>
+                <label>Phone Center</label>
+            </value>
+            <value>
+                <fullName>RD</fullName>
+                <default>false</default>
+                <label>Regional Director</label>
+            </value>
+            <value>
+                <fullName>WE</fullName>
+                <default>false</default>
+                <label>Web</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

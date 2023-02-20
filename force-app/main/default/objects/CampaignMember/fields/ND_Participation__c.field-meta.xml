@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ND_Participation__c</fullName>
+    <description>Values to define a Constituent&apos;s participation in an event.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Values to define a Constituent&apos;s participation in an event.</inlineHelpText>
+    <label>Participation</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Participation</valueSetName>
+    </valueSet>
+</CustomField>
